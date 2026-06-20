@@ -10471,4 +10471,15 @@ span {
   color: var(--theme-2);
   position: relative;
   z-index: 999;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* VDL Logo size fix */
+.header-logo img,
+.header-logo-2 img,
+.offcanvas__logo img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=main.css.map */
